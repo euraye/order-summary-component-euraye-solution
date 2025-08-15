@@ -1,0 +1,51 @@
+:root{
+
+    /* PRIMARY COLOR */
+    --blue100: hsl(225, 100%, 94%);
+    --blue700: hsl(245, 75%, 52%);
+
+    /* NEUTRAL COLOR */
+    --blue50:  hsl(225, 100%, 98%);
+    --gray600: hsl(224, 23%, 55%);
+    --blue950: hsl(223, 47%, 23%);
+
+
+    /* Fonts */
+    --font-size: 16px;
+    --font-family: 'Red Hat Display', 'Space Grotesk', sans-serif;
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue100) url('images/pattern-background-desktop.svg') no-repeat top center;
+  background-size: contain; 
+}
+
+.container {
+  background: white;
+  width: 90%;
+  max-width: 22rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.illustration {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+
+}
